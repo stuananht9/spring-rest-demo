@@ -8,13 +8,9 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context-3.2.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-    <context:component-scan base-package="webmvc"/>
+    <context:component-scan base-package="spring.restful.demo"/>
 
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/jsp/" />
-        <property name="suffix" value=".jsp" />
-    </bean>
-
+    <context:annotation-config/>
     <mvc:default-servlet-handler />
     <mvc:annotation-driven />
 </beans>

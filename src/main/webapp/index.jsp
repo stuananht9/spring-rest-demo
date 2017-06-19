@@ -4,7 +4,6 @@
     <title></title>
 </head>
 <body>
-Spring WebMVC Sample
-<a  href="register">registration</a>
+Spring RESTful service
 </body>
 </html>
